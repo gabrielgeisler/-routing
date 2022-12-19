@@ -5,8 +5,6 @@ import streamlit.components.v1 as components
 from streamlit_folium import st_folium
 import folium
 
-API_KEY = "AIzaSyCb9eryJMdKYEKQOAyE6wJF4JCIrEtc2tU"
-
 def CreateDeposito():
     idAlteracao = st.experimental_get_query_params()
     depositoRecuperado = None
